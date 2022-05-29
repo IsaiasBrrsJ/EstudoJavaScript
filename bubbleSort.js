@@ -1,14 +1,14 @@
 var array=[5,4,3,2,1];
 
-function bubbleSort(ar){
- for(var i = 0; i < ar.length; i++){
-   for(var j = i+1; j < ar.length; j++){
-      if(ar[i] > ar[j]){
-        [ar[i], ar[j]] = [ar[j], ar[i]];
+function bubbleSort(array){
+ for(var i = 0; i < array.length; i++){
+   for(var j = i+1; j < array.length; j++){
+      if(array[i] > array[j]){
+        [array[i], array[j]] = [array[j], array[i]];
        
       } 
     }
   }
-  return ar;
+  return array;
 }
 console.log(bubbleSort(array));
