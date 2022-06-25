@@ -15,7 +15,7 @@ function largestOfFour(arr) {
   let max = 0;
   let arrReturn = [];
   for(let i =0; i < arr.length; i++){ //inicia em 0 e só vai pro proximo elemento quando terminar toda a iteração de J
-    max = -999; // defini como -999 pra poder considerar o maior numero negativo, deu certo pois quanto mais próximo do 0, o número negativo estiver, maior ele será
+    max = -999; // defini como -999 pra poder considerar o maior numero negativo, deu certo pois quanto mais próximo do 0 o número negativo estiver, maior ele será
     for(let j = 0; j < arr.length; j++){ // 
       if(arr[i][j] > max){
         max = arr[i][j];
